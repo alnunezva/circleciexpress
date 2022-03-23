@@ -4,5 +4,4 @@ orbs:
 workflows:
   test:
     jobs:
-      - node/test:
-          test-results-for: jest
+      - node/test
